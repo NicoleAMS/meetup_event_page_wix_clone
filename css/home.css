@@ -1,0 +1,250 @@
+/* COLOURS
+
+beige: #EAEAE0;
+offwhite: #F9F9F9;
+white: #FFFFFF;
+red: #E52425;
+dark-grey: #605E5E;
+middle-grey: #8E8E8E;
+
+*/
+
+@font-face {
+  font-family: 'Engschrift';
+  src: url('../fonts/tgl_0-1451eng-webfont.ttf') format('truetype'),
+       url('../fonts/tgl_0_1451eng-webfont.woff') format('woff'),
+       url('../fonts/tgl_0_1451eng-webfont.woff2') format('woff2');
+}
+
+/* GENERAL STYLES */
+
+body {
+  font-family: sans-serif;
+  letter-spacing: 0.2em;
+  color: #605E5E;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h1, h3 {
+  font-family: 'Engschrift', sans-serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+.capital {
+  text-transform: uppercase;
+}
+
+.background {
+  background-image: url("../images/new-york.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom left;
+}
+
+.white-background-wrapper, footer {
+  background-color: white;
+  padding: 50px 0;
+}
+
+/* HEADER NAVIGATION */
+
+nav {
+  background-color: rgba(234, 234, 224, 0.5);
+  padding: 20px 100px 35px;
+}
+
+nav p {
+  margin: 0;
+  position: fixed;
+}
+
+nav a {
+  color: #E52425;
+  text-decoration: none;
+}
+
+.mobile {
+  display: none;
+}
+
+/* HEADER BANNER */
+
+.banner-container {
+  height: 700px;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner {
+  background-color: rgba(229, 36, 37, 0.8);
+  text-align: center;
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 40px 30px;
+  color: white;
+}
+
+.banner h1 {
+  letter-spacing: 0.4em;
+  font-size: 80px;
+  font-weight: 400;
+  margin: 40px 0;
+}
+
+.banner h1 .dash {
+  letter-spacing: 0.1em;
+}
+
+.banner h1 .no-space {
+  letter-spacing: 0;
+}
+
+.banner .white-line {
+  border-top: 2px solid white;
+  width: 100px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+/* HEADER REGISTRATION */
+
+.register-container {
+  background-color: #EAEAE0;
+  height: 175px;
+  text-align: center;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register button {
+  background-color: #E52425;
+  border: none;
+  padding: 15px 0;
+  font-size: 16px;
+  margin: 15px;
+}
+
+.register button a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 35px;
+}
+
+.register button:hover {
+  background-color: #bf2424;
+  color: #F9F9F9;
+}
+
+/* MAIN EVENT DETAILS */
+
+.event-details {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 50px 15px;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-wrap {
+  width: 50%;
+  min-width: 250px;
+  margin: 0 auto;
+}
+
+.text-wrap2 {
+  min-width: 450px;
+}
+
+.date h3 {
+  width: 100%;
+}
+
+.location h3 {
+  width: 100%;
+}
+
+.ed-item {
+  flex-basis: 50%;
+}
+
+h3 {
+  font-size: 55px;
+}
+
+.about {
+  text-align: center;
+  margin: 50px 0;
+}
+
+/* MAIN SCHEDULE */
+
+.schedule {
+  color: white;
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.schedule h3 {
+  margin-bottom: 0;
+}
+
+.red-background-wrapper {
+  padding: 50px 0;
+  transition: all 500ms;
+  will-change: background;
+
+}
+
+/* MAIN GOOGLE MAPS */
+
+.map {
+  height: 500px;
+  background-color: #8E8E8E;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 20px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+footer p {
+  text-align: center;
+  letter-spacing: 0;
+}
+
+footer a {
+color: #605E5E;
+text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer i {
+  font-size: 16px;
+  color: #8E8E8E;
+  padding-right: 10px;
+}
